@@ -1,3 +1,4 @@
+# WestWorld
 
 1. Have you ever questioned the nature of your reality?
 2. Tell us what you think of this world?
@@ -10,6 +11,7 @@ ____________________________________________________________________________
 
 1. Winning doesn’t mean anything unless someone else loses, that is why hosts are programmed to lose. That is why newcomers pay to play a rigged game. They play the game so similar to life so it makes them feel they are winning at life
 2. As Dolores was saying - “she is lucky to be alive”, she was being raped in a scene parallely. What did they mean to show by that?
+
 ____________________________________________________________________________
 
 * My questions

@@ -1,3 +1,4 @@
+# Mikasa - cruel or compassionate?
 
 I tend to take Mikasa’s philosophy in a lot of situations. Yes, the world sucks, it’s merciless and cruel and yet it still is beautiful. There are still things I find worth fighting for and living for regardless of how messy things can get. 
 
