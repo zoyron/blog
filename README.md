@@ -1,4 +1,3 @@
 
-
-* [Advice to young men](./vault/advice.md)
+* [WestWorld](./vault/westWorld.md)
 * [Mikasa - cruel or compassionate?](./vault/mikasa.md)
