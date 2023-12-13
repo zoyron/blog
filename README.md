@@ -1,3 +1,4 @@
+# Blog
 
-* [WestWorld](./vault/westWorld.md)
-* [Mikasa - cruel or compassionate?](./vault/mikasa.md)
+## * [WestWorld](./vault/westWorld.md)
+## * [Mikasa - cruel or compassionate?](./vault/mikasa.md)
