@@ -4,3 +4,4 @@
 * [Mann Kasturi](./vault/mannKasturi.md)
 * [Mikasa - cruel or compassionate?](./vault/mikasa.md)
 * [Mr. Voyager](./vault/Mr. Voyager.md)
+* [Evil Ophthalmologist](./vault/evilOphthal.md)
