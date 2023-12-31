@@ -1,3 +1,5 @@
+# Mann Kasturi
+
 "Mann Kasturi re," a profound song, encapsulates a beautiful metaphor within its lyrics. The song intertwines the essence of the soul ("mann") with the musk deer ("kasturi"), known for its fragrant scent.
 
 In simple terms, the song likens the human soul to the musk deer, which spends its life searching for the source of its enchanting fragrance. Little does the deer know that the captivating scent originates from within itself. Similarly, the song suggests that we, like the musk deer, seek fulfillment and happiness outside ourselves, unaware that the key to contentment lies within us.
