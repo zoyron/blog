@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 
 
-$primary-color: #2c3e50;
-$secondary-color: #3498db;
-$accent-color: #e74c3c;
+$primary-color: #5d6d7e; // Light grayish blue
+$secondary-color: #27ae60; // Soft green
+$accent-color: #3498db; // Soft blue
 $body-font: 'Roboto', sans-serif;
 
 // Global styles
@@ -15,12 +15,12 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: $body-font;
-  background: linear-gradient(to right, #2980b9, #2c3e50);
-  color: #fff;
+  background-color: #f8f9fa; // Light grayish background
+  color: #333; // Dark gray text color
 }
 
 a {
-  color: #fff;
+  color: $accent-color; // Soft blue for links
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -29,8 +29,8 @@ a {
 
 // Header styles
 .header {
-  background-color: $primary-color;
-  color: #fff;
+  background-color: $primary-color; // Light grayish blue
+  color: #fff; // White text color
   padding: 20px;
   text-align: center;
   h1 {
@@ -41,15 +41,15 @@ a {
 
 // Footer styles
 .footer {
-  background-color: $primary-color;
+  background-color: $primary-color; // Light grayish blue
   padding: 20px;
   text-align: center;
-  color: #fff;
+  color: #fff; // White text color
 }
 
 // Navigation styles
 .navbar {
-  background-color: $primary-color;
+  background-color: $secondary-color; // Soft green
   padding: 10px 0;
   ul {
     list-style: none;
@@ -59,7 +59,7 @@ a {
       display: inline-block;
       margin-right: 10px;
       a {
-        color: #fff;
+        color: #fff; // White text color
         text-decoration: none;
         &:hover {
           text-decoration: underline;
@@ -72,25 +72,21 @@ a {
 // Main content area styles
 .main-content {
   padding: 20px;
-  background-color: #fff;
+  background-color: #fff; // White background color
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); // Soft shadow effect
 }
 
 // Button styles
 .btn {
-  background-color: $secondary-color;
-  color: #fff;
+  background-color: $accent-color; // Soft blue
+  color: #fff; // White text color
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   &:hover {
-    background-color: darken($secondary-color, 10%);
+    background-color: lighten($accent-color, 10%); // Lighten the background color on hover
   }
-}
-
-.btn {
-  display: none !important;
 }
