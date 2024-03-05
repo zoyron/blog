@@ -4,9 +4,10 @@
 @import "{{ site.theme }}";
 
 
-$primary-color: #3498db;
-$secondary-color: #2ecc71;
-$body-font: 'Arial', sans-serif;
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$accent-color: #e74c3c;
+$body-font: 'Roboto', sans-serif;
 
 // Global styles
 html, body {
@@ -14,16 +15,12 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: $body-font;
-}
-
-body {
-  background-color: #f8f9fa; // Light gray background
-  color: #333; // Text color
-  line-height: 1.6;
+  background: linear-gradient(to right, #2980b9, #2c3e50);
+  color: #fff;
 }
 
 a {
-  color: $primary-color;
+  color: #fff;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -38,21 +35,21 @@ a {
   text-align: center;
   h1 {
     margin: 0;
+    font-size: 36px;
   }
 }
 
 // Footer styles
 .footer {
-  background-color: #333;
-  color: #fff;
+  background-color: $primary-color;
   padding: 20px;
   text-align: center;
+  color: #fff;
 }
 
 // Navigation styles
 .navbar {
-  background-color: $secondary-color;
-  color: #fff;
+  background-color: $primary-color;
   padding: 10px 0;
   ul {
     list-style: none;
@@ -75,4 +72,21 @@ a {
 // Main content area styles
 .main-content {
   padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+// Button styles
+.btn {
+  background-color: $secondary-color;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: darken($secondary-color, 10%);
+  }
 }
